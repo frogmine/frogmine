@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <!--
 	Dimension by HTML5 UP
-	html5up.net | @ajlkn
+	froooo0g | @icekens
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>FrogMine — Ресурс-пак</title>
+		<title>FrogMine — Сборка модов</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,21 +20,23 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<img src="images/bedrock.png" style="width: 60%; height: 60%; object-fit: contain; margin-top: 13px;" alt="Bedrock" />
 						</div>
 						<div class="content">
 							<div class="inner">
 								<h1>FrogMine</h1>
-								<p>Официальный сайт крутого ванильного ресурс-пака для Minecraft.<br />
-								Создано игроком <a href="https://github.com">froooo0g</a> в разрешении 32x32.</p>
+								<p>Официальный site оптимизированной сборки модов для Minecraft.<br />
+								Создано игроком <a href="https://github.com">froooo0g</a> для максимального FPS.</p>
+								<p style="font-size: 0.85em; opacity: 0.7; margin-top: 10px;">Все тесты: прорисовка 8 чанков, симуляция 5 чанков</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">О паке</a></li>
-								<li><a href="#screenshots">Скриншоты</a></li>
-								<li><a href="#download">Скачать</a></li>
-								<li><a href="#contact">Контакты</a></li>
+								<li><a href="#intro">До твиков</a></li>
+								<li><a href="#screenshots">После твиков</a></li>
+								<li><a href="#modlist">Состав сборки</a></li>
+								<li><a href="https://drive.google.com/file/d/1cf5eNIyoly_WU3EAzPAIF5KSfeHfiFip/view?usp=sharing" download>Скачать</a></li>
+								<li><a href="t.me/icekens">Контакты</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -42,36 +44,60 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- О паке -->
+						<!-- До твиков -->
 							<article id="intro">
-								<h2 class="major">О проекте</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="FrogMine" /></span>
-								<p>Добро пожаловать! <b>FrogMine</b> — это детальный текстур-пак в стиле Faithful, который сохраняет привычную атмосферу оригинального Minecraft, но делает блоки и предметы в два раза чётче.</p>
-								<p>Все текстуры перерисованы в разрешении 32x32 пикселя. Это идеальный баланс между красивой картинкой и высокой производительностью игры без просадок FPS.</p>
+								<h2 class="major">Дефолтный Minecraft</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="Майнкрафт без сборки" /></span>
+								<p><b>Чистая ванильная версия 1.26.2 (Прорисовка: 8, Симуляция: 5):</b> На скриншоте выше видны тесты на процессоре Intel Celeron N5105. В пустом мире, где практически <b>нет сущностей</b>, чистый клиент выдаёт вроде бы неплохие <b>95 FPS</b>.</p>
+								<p>Однако без оптимизации игра страдает от постоянных <b>микрофризов</b> и жестких просадок (статтеров) при генерации мира, а встроенная графика нагружается вхолостую. Плавности в дефолтном клиенте нет даже при минимальной нагрузке.</p>
 							</article>
 
-						<!-- Скриншоты -->
+						<!-- После твиков -->
 							<article id="screenshots">
-								<h2 class="major">Скриншоты</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="Мир игры" /></span>
-								<p>Посмотрите, как преображается игровой мир с новыми текстурами от froooo0g. Трава, руды, интерфейс и инструменты выглядят гораздо аккуратнее.</p>
-								<span class="image main"><img src="images/pic03.jpg" alt="Предметы" /></span>
+								<h2 class="major">Сборка FrogMine</h2>
+								<span class="image main"><img src="images/pic02.jpg" alt="Результат со сборкой" /></span>
+								<p><b>После установки FrogMine (Прорисовка: 8, Симуляция: 5):</b> А это результат работы нашей оптимизации на движке <b>Fabric с Sodium Renderer</b>! Счётчик кадров вырос до стабильных <b>114 FPS</b>.</p>
+								<p>За счёт глубоких твиков задержка встроенного сервера упала с 43 мс до <b>22 мс</b>. Это полностью <b>ликвидировало все микрофризы</b> и статтеры. Мир прогружается плавно, а управление стало максимально отзывчивым.</p>
 							</article>
 
-						<!-- Скачать -->
-							<article id="download">
-								<h2 class="major">Загрузка</h2>
-								<p>Выберите нужную версию и скачайте архив прямо на свой ПК. После загрузки просто перетащите файл в папку <code>resourcepacks</code> внутри вашего Minecraft.</p>
+						<!-- Состав сборки -->
+							<article id="modlist">
+								<h2 class="major">Что внутри сборки?</h2>
 								
-								<ul class="actions stacked">
-									<li><a href="frogmine_faithful.zip" class="button primary large" download>Скачать FrogMine (Актуальная версия)</a></li>
+								<h3>Ядро оптимизации (FPS и Движок)</h3>
+								<ul>
+									<li><b>Sodium + Sodium Extra</b> — Мощный рендер нового поколения, заменяющий тяжелый OptiFine.</li>
+									<li><b>C2ME + Bobby + Lithium</b> — Ускорение генерации чанков, многопоточность и оптимизация физики мира.</li>
+									<li><b>ModernFix + FerriteCore + BadOptimizations</b> — Исправление утечек оперативной памяти и ускорение запуска игры.</li>
+									<li><b>EntityCulling + SightCull + Cull Fewer Leaves</b> — Отключение рендера невидимых мобов, стен и лишней листвы для разгрузки видеокарты.</li>
+									<li><b>VulkanPostFX + Async Fabric</b> — Улучшение постобработки и асинхронные вычисления.</li>
+								</ul>
+
+								<h3>Интерфейс, Функционал и Визуал</h3>
+								<ul>
+									<li><b>ViaFabricPlus</b> — Возможность заходить на любые версии серверов.</li>
+									<li><b>Xaero's Minimap</b> — Удобная и легкая миникарта.</li>
+									<li><b>Zoomify</b> — Плавное и настраиваемое приближение камеры.</li>
+									<li><b>Inventory Profiles Next</b> — Умная сортировка и управление инвентарем.</li>
+									<li><b>Roughly Enough Items (REI)</b> — Удобный просмотр всех рецептов крафта.</li>
+									<li><b>AmbientSounds + NotEnoughAnimations + Visuality</b> — Объемные живые звуки, новые анимации игрока и красивые частицы.</li>
+								</ul>
+
+								<h3>Ресурс-паки (Графика)</h3>
+								<p>В сборку уже встроена и настроена связка текстур на базе <b>Faithful 32x</b>:</p>
+								<ul>
+									<li><b>Faithful 32x + Better Leaves</b> — Четкие ванильные текстуры и объемная листва.</li>
+									<li><b>Dramatic Skys Demo</b> — Реалистичное и красивое небо.</li>
+									<li><b>Eating Animations x32 + Theone's Eating Pack</b> — Плавные анимации поедания еды.</li>
+									<li><b>MandalasGUI + Dark Smooth GUI (Blue)</b> — Стильный темный интерфейс в приятных синих тонах.</li>
+									<li><b>ClearerWater + Low Fire + Ore Borders</b> — Прозрачная вода, низкий огонь и удобные рамки у руд для шахт.</li>
 								</ul>
 							</article>
 
 						<!-- Контакты -->
 							<article id="contact">
 								<h2 class="major">Связь</h2>
-								<p>Если у вас есть идеи по улучшению текстур или вы нашли баг, можете связаться с автором напрямую через социальные сети:</p>
+								<p>Если у вас появились вопросы по установке сборки или предложения по добавлению новых модов, пишите TG icekens:</p>
 								
 								<ul class="icons">
 									<li><a href="https://github.com" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
