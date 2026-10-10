@@ -18,7 +18,7 @@ froooo0g
 Credits:
 
 	Pack Images & Assets:
-		froooo0g (://github.com)
+		froooo0g (icekens)
 
 	Original Design:
 		HTML5 UP (html5up.net)
