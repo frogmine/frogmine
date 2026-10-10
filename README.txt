@@ -1,26 +1,27 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
+FrogMine Website (Based on Dimension by HTML5 UP)
+frogmine.github.io | @froooo0g
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
+This is FrogMine, an atmospheric Minecraft resource pack website built on top of a fun 
+little one-pager template with modal-ized "pages" and a cool depth effect. Simple, fully 
+responsive, and customized specifically for showcase and download of the FrogMine pack.
 Hope you dig it :)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Minecraft screenshots and pack assets courtesy of froooo0g.
+Original template design by HTML5 UP.
 
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
+froooo0g
+@froooo0g
 
 
 Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+	Pack Images & Assets:
+		froooo0g (://github.com)
+
+	Original Design:
+		HTML5 UP (html5up.net)
 
 	Icons:
 		Font Awesome (fontawesome.io)
